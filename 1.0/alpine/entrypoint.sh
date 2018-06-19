@@ -15,4 +15,4 @@ do
   sleep 5
 done
 
-exec prometheus-couchbase-exporter -c http://${COUCHBASE_HOST}:${COUCHBASE_PORT} -p ${PROMETHEUS_PORT} ${COUCHBASE_CREDS}
+exec prometheus-couchbase-exporter -c http://${COUCHBASE_HOST}:${COUCHBASE_PORT} -p ${PROMETHEUS_PORT}
